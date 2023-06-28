@@ -1,0 +1,62 @@
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+#nav{
+	-webkit-box-shadow: 0 8px 6px 0 #eaeaea;
+	-moz-box-shadow: 0 8px 6px 0 #eaeaea;
+	box-shadow: 0 8px 6px 0 #eaeaea;
+}
+
+#activeNav{
+	border-bottom: 3px solid #06B6D4;
+	width: 50%;
+	left: 35%;
+	right: 35%;
+	padding-top: 3px;
+	margin: auto;
+}
+
+#login{
+	border: 1px solid #06B6D4;
+	color: #06B6D4;
+}
+
+#register{
+	background-color: #06B6D4;
+}
+
+@media only screen and (max-width: 1920px) {
+	#bgReg{
+		width: 832px;
+		height: 2007px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#bgReg{
+		width: 90%;
+	}
+}
+
+#bgReg{
+	border-radius: 25px;
+}
+
+#formReg{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	/*line-height: 0px;*/
+
+	color: #525252;
+}
+
+#formReg ::placeholder{
+	color: #C4C4C4;
+	opacity: 1; /* Firefox */
+}
+
+#agreeTerms{
+	font-size: 12px;
+}

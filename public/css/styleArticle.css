@@ -1,0 +1,16 @@
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+#activeNav{
+	border-bottom: 3px solid #06B6D4;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+#nav{
+	-webkit-box-shadow: 0 8px 6px 0 #f4f4f4;
+	-moz-box-shadow: 0 8px 6px 0 #f4f4f4;
+	box-shadow: 0 8px 6px 0 #f4f4f4;
+}

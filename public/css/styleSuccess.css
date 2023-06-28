@@ -1,0 +1,19 @@
+*{
+	font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width: 1920px) {
+	#check{
+		width: 448px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#check{
+		width: 80px;
+	}
+}
+
+#prompt{
+	color: #06B6D4;
+}

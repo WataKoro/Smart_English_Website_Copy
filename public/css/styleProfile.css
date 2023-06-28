@@ -1,0 +1,63 @@
+*{
+	font-family: 'Inter', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#activeNav{
+	border-bottom: 3px solid #06B6D4;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+}
+
+#shadow{
+	-webkit-box-shadow: 0 8px 6px 0 #f4f4f4;
+	-moz-box-shadow: 0 8px 6px 0 #f4f4f4;
+	box-shadow: 0 8px 6px 0 #f4f4f4;
+}
+
+#upload{
+	border: 3px dashed black;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 1920px) {
+	#bio{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#bio{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
+	#upload{
+		width: 75%;
+		border: 3px dashed black;
+		border-radius: 10px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#upload{
+		border: 3px dashed black;
+		border-radius: 10px;
+	}
+}
+
+@media only screen and (max-width: 1920px) {
+	#dataTable{
+		width: 75%;
+		
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#dataTable{
+		width: 100%;
+	}
+}

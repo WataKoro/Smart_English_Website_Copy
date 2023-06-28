@@ -1,0 +1,49 @@
+*{
+    font-family: 'Inter', sans-serif;
+    /* border-color: white; */
+    border-color: transparent;
+}
+
+.foto_artikel{
+    width: 100px;
+}
+
+.table > tbody > tr > *{
+    vertical-align: middle;   
+}
+
+.warnabar{
+    /* border-color: white; */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;    
+    /* vertical-align: middle;    */
+    background-color: #06B6D4;
+    color: white;
+}
+
+.seltabel{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table > :not(:first-child) {
+    border-top: 0;
+}
+
+.garis{
+    border-color:#06B6D4 !important;
+}
+
+.dashed{
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.table{
+    outline: 1px solid #06B6D4;
+}
+
+.abu-bg{
+    background-color: #F4F5F5;
+}
